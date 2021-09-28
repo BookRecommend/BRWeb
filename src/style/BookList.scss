@@ -1,0 +1,49 @@
+.BookInfoBox {
+  border: black solid 1px;
+  display: flex;
+  //height: 132px;
+  //align-items: center;
+  width: 1198px;
+  align-items: flex-start;
+
+  .BookImg {
+    max-width: 82px;
+    margin-left: 2px;
+    margin-right: 5px;
+  }
+  .BookImgTable {
+    width: 92px;
+  }
+
+  .BookDetailInfo {
+    margin-top: 20px;
+    padding-inline: 50px;
+    //text-align: center;
+
+    .LibraryInfo {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      .Library {
+        width: 945px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid black 1px;
+        padding-bottom: 30px;
+
+        .LibAddress {
+          -moz-user-select: text;
+          -webkit-user-select: text;
+          -ms-user-select: text;
+          user-select: text;
+        }
+      }
+
+      .LibraryDetailInfo {
+        //margin-top: px;
+        margin-left: 100px;
+      }
+    }
+  }
+}

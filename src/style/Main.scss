@@ -1,0 +1,111 @@
+.SiteFrame {
+  width: 1280px;
+  margin: auto;
+  border: black solid 1px;
+
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  .SiteHead {
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .SiteName {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: black solid 1px;
+      position: absolute;
+      left: 7%;
+      //top: 50%;
+      height: 52px;
+      width: 228px;
+    }
+    .Input {
+      border: black solid 1px;
+      position: absolute;
+      //margin-inline: 55px;
+      height: 52px;
+      //top: 50%;
+      left: 31%;
+
+      .InputBar {
+        margin: 1px;
+        width: 460px;
+        font-size: 21px;
+        font-weight: bold;
+        padding: 11px;
+        vertical-align: middle;
+      }
+      .InputButton {
+        height: 52px;
+        width: 57px;
+        vertical-align: middle;
+      }
+    }
+    .UserInfoBox {
+      display: flex;
+      align-items: center;
+      height: 54px;
+      //top: 50%;
+      left: 77%;
+      position: absolute;
+
+      .UserThumb {
+        height: 54px;
+        border-radius: 27px;
+        margin-right: 5px;
+      }
+    }
+    .GoogleLoginButton {
+      //top: 53%;
+      right: 8%;
+      position: absolute;
+    }
+    .SearchRegionSelector {
+      position: absolute;
+      top: 65%;
+      left: 31%;
+
+      .RegionResetButton {
+        position: absolute;
+        top: 42px;
+        right: -60px;
+      }
+    }
+  }
+
+  .SiteBody {
+    .SearchList {
+      border: black solid 1px;
+      text-align: left;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      //margin-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-inline: 20px;
+
+      list-style-type: none;
+    }
+    .SearchPager {
+      text-align: center;
+      //height: 20px;
+
+      .SearchPageButton {
+        width: 24px;
+        height: 22px;
+        margin: 2px;
+        padding: 0px;
+      }
+    }
+  }
+}

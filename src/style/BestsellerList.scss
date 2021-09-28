@@ -1,0 +1,17 @@
+.BestsellerList {
+  border: black solid 1px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 20px;
+
+  list-style-type: none;
+
+  .GenreSelected {
+    font-weight: bold;
+  }
+}
